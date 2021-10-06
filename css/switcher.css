@@ -1,0 +1,103 @@
+#style-switcher-wrap {
+	position:fixed;
+	top:160px;
+	left:0px;
+	z-index:10000000000;
+	cursor:pointer;
+}
+			
+#style-switcher {
+	position:absolute;
+	left:0px;
+	font-size:2.6em;
+	background-color:#fff;
+	padding:8px 12px;
+	box-shadow:0px 0px 1px #555;
+	color:#444;
+	z-index:10000000;
+}
+			
+#style-form {	
+	position:relative;
+	display:none;
+	width:110px;
+	height:auto;
+	background-color:#ffffff;
+	padding:10px 5px 30px 20px;
+	box-shadow:0px 0px 1px #555;
+	z-index:100000000000;
+}
+			
+#red-color, #purple-color, #pink-color {
+	width:30px;
+	height:20px;
+	float:left;
+	margin:2px;
+	cursor:pointer;
+}
+			
+#bg-pattern1, #bg-pattern2, #bg-pattern3, #bg-pattern4 {
+	width:40px;
+	height:30px;
+	float:left;
+	margin:3px;
+	cursor:pointer;
+}
+			
+#bg-image1, #bg-image2, #bg-image3 {
+	width:80px;
+	height:30px;
+	float:left;
+	margin:3px;
+	cursor:pointer;
+}
+			
+#bg-image1 {
+	background:url(../images/bg-image-selector1.png);
+}
+			
+#bg-image2 {
+	background:url(../images/bg-image-selector2.png);
+}
+			
+#red-color {
+	background-color:#dc2447;
+}
+			
+#pink-color {
+	background-color:#c03673;
+}
+			
+#purple-color {
+	background-color:#6b58c2;
+}
+			
+#bg-pattern1 {
+	background:url(../images/tileable_wood_texture.png);
+}
+			
+#bg-pattern2 {
+	background:url(../images/subtle_white_feathers.png);
+}
+			
+#bg-pattern3 {
+	background:url(../images/squairy_light.png);
+}
+			
+#bg-pattern4 {
+	background:url(../images/bgnoise_lg.png);
+}
+			
+#style-form .head {
+	font-family:"Open Sans", "Arial", sans-serif;
+	font-weight:700;
+	text-transform:uppercase;
+	color:#a8a8a7;
+	margin:6px 0 6px 0;
+	font-size:0.9em;
+}
+		
+#layout-select {
+	width:90px;
+	margin-top:10px;
+}
